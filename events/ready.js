@@ -1,7 +1,7 @@
 module.exports = async (client) => {
   console.log(`[API] Logged in as ${client.user.username}`);
-  await client.user.setActivity("-help | HD MUSIC", {
-    type: "LISTENING",
+  await client.user.setActivity("-help | Invite Me ", {
+    type: "PLAYING",
     status:"dnd"
   });
 };
